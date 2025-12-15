@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cadastro-Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+
+  <body>
+    <form class="box_form">
+      <div class="form_container">
+        <p class="titulo">Cadastro
+        </p>
+        
+        <div class="field_nome">
+          <div class="field">
+      <label for="fname">Nome</label>
+      <input type="text"  maxlength="20"  placeholder="Primeiro nome" id="fname" name="fname"> </div>
+
+       <div class="field">
+      <label for="lname">Sobrenome</label> 
+      <input type="text"  maxlength="90" placeholder="Sobrenome" id="lname" name="lname"> </div> </div>
+
+      <div class="cpf_name">
+      <label for="CPF">CPF</label></div>
+      <input type="text" maxlength="14" placeholder="Digite seu CPF" id="CPF" name="CPF">
+
+      <div class="email_name">
+      <label for="email">E-mail</label></div>
+      <input type="email" maxlength="40" placeholder="Digite seu e-mail" id="email" name="email">
+
+        <div class="password_name">
+      <label for="password">Senha</label></div>
+      <input type="password"  placeholder="Digite sua senha" id="password" name="password">
+     
+        <div class="password_name">
+      <label for="password">Confirmar senha</label></div>
+      <input type="password" placeholder="Confirme sua senha" id="password" name="password">
+      
+      <button class="btn_cadastro">Cadastrar-se</button>
+      </div>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>
